@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assents/style.css">
+    <title>Banco Proz</title>
+
+    <html lang="pt-br">
+
+<head>
+    <h1> Banking Proz System</h1>
+</head>
+<p>Saldo Atual: <span id="balance">R$0.00</span></p>
+<form>
+<label for="batata">Selecione o tipo do Serviço: </label>
+    <select name="Selecione" id="checking">
+        <option value="Cr"> Crédito </option>
+        <option value="De"> Débito </option>
+        <option value="Cqr"> Qrcode </option>
+        <option value="Er"> Encerrar </option>
+    </select>
+    <button onclick="processAccountType()">Enviar</button>
+    
+</form>
+
+
+<br>
+<footer> @isavilucena &copy; </footer>
+</html>
